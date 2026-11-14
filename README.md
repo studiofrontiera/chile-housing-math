@@ -21,7 +21,7 @@ I built these modules for a bilingual real estate web platform in Chile and extr
 Requires Node.js 22.6 or newer (runs TypeScript directly).
 
 ```bash
-git clone https://github.com/<owner>/chile-housing-math
+git clone https://github.com/studiofrontiera/chile-housing-math
 cd chile-housing-math
 npm test          # 65 tests
 npm run example
