@@ -1,0 +1,16 @@
+{
+  "name": "chile-housing-math",
+  "version": "0.1.0",
+  "description": "Tested TypeScript math for Chilean housing: UF mortgages, amortisation schedules, affordability and IPC rent adjustment that matches the official INE calculator.",
+  "type": "module",
+  "main": "src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "example": "node --experimental-strip-types examples/basic.ts"
+  },
+  "engines": { "node": ">=22.6" },
+  "keywords": ["chile", "uf", "ipc", "mortgage", "hipotecario", "arriendo", "reajuste", "banco-central"],
+  "author": "Artem Meleshchenko",
+  "license": "MIT"
+}
